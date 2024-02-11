@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #c{
+        margin-top:120pt;
+        font-size:180pt;
+        
+    }
+    .coeur:hover{
+        animation:coeur 1s infinite;
+    }
+    @keyframes coeur{
+        10%{
+            scale:1.5;
+        }
+        50%{
+            scale:0.5;
+            
+        }
+    }
+    .body:hover{
+        animation:body 1s infinite;
+    }
+    @keyframes body{
+        20%{
+            background-color: rgb(245, 94, 94);
+        }
+        
+        50%{
+            background-color: rgba(255, 0, 0, 0.432);
+        }
+    }
+    
+
+</style>
+<body class="body">
+    <div align="center" class="coeur">
+       <h1 id="c">❤️</h1> 
+    </div>
+    
+</body>
+</html>
